@@ -7,7 +7,7 @@ int main(void)
 	int height;
 	do {
 		height = printf("Enter pyramid height: ");
-		scanf_s("%i", &height);												// Program crashes when a char, float or string are input
+		scanf_s("%i", &height);						// Program crashes when a char, float or string are input
 		if (height > 0 && height <= 8) {
 
 			for (int i = 0; i < height; i++) {
